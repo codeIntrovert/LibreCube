@@ -59,8 +59,10 @@ body {
     overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
+/* Track */
+::-webkit-scrollbar {
     width: 10px;
+    /* Set track color to transparent */
 }
 
 body::-webkit-scrollbar-thumb {
